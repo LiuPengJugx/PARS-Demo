@@ -14,7 +14,7 @@ defined optimization objectives. PARS also employs a variety of chart types to v
 * Do you want to learn more about data partitioning? Please check out our [database partitioning survey](https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-024-3538-1) and [AIDB paper resources](https://github.com/LumingSun/ML4DB-paper-list)!
 
 ## How PARS works?
-Given a basic DB configuration such as table schema and workload as input, PARS initializes the  [PostgreSQL](https://www.postgresql.org/docs/current/index.html) database and uses a Feature Extractor to mine valuable column access patterns. A [cost model](https://www.sciencedirect.com/science/article/abs/pii/S002002551500643X), manually configured based on the storage environment before use, considers factors like index, I/O buffer, disk bandwidth, and block size. Leveraging the Cost Models and candidate Data Partitioners, PARS generates potential partitioning plans. It then interacts with the Query Executor to obtain multiple measured metrics for these plans and invokes the decision system to recommend the best one. The Partition Deployer subsequently creates scripts for deploying the selected plan. In this process, PARS ensures input validity by performing data cleaning (removing empty and duplicate tuples) and query validation (checking SQL syntax), adopts diverse chart components to visualize the partitioning process and results.
+Given a basic DB configuration such as table schema and workload as input, PARS initializes the  [PostgreSQL](https://www.postgresql.org/docs/14/index.html) database and uses a Feature Extractor to mine valuable column access patterns. A [cost model](https://www.sciencedirect.com/science/article/abs/pii/S002002551500643X), manually configured based on the storage environment before use, considers factors like index, I/O buffer, disk bandwidth, and block size. Leveraging the Cost Models and candidate Data Partitioners, PARS generates potential partitioning plans. It then interacts with the Query Executor to obtain multiple measured metrics for these plans and invokes the decision system to recommend the best one. The Partition Deployer subsequently creates scripts for deploying the selected plan. In this process, PARS ensures input validity by performing data cleaning (removing empty and duplicate tuples) and query validation (checking SQL syntax), adopts diverse chart components to visualize the partitioning process and results.
 
 <div align=center>
 <img width="500"  src="./fig/PARS.svg">
@@ -69,15 +69,17 @@ The demonstration begins with a step-by-step environment configuration. At first
 </div>
 
 ### Partitioning Decision
- DBAs are then guided to a card panel (see $\textcircled{1}$) that manages the execution of partition generation and decision. Using created configurations (e.g., TPC-H) as input, PARS first presents an overview of the input using pie charts (see $\textcircled{2}$), detailing table access frequency, and the distribution of text columns and predicates. It then performs the partitioning in the background, creating each partitioner's data layout. Next, $\textcircled{3}$ evaluates these layouts against the load scenario based on selected optimization objectives.
+ DBAs are then guided to a card panel (see ①) that manages the execution of partition generation and decision. Using created configurations (e.g., TPC-H) as input, PARS first presents an overview of the input using pie charts (see ②), detailing table access frequency, and the distribution of text columns and predicates. It then performs the partitioning in the background, creating each partitioner's data layout. Next, ③ evaluates these layouts against the load scenario based on selected optimization objectives.
 
-PARS recommends the partitioning plan with the highest score (see $\textcircled{4}$). 
+PARS recommends the partitioning plan with the highest score (see ④). 
 
 >Note. Baselines: ROW (which treats all columns as one column group and randomly horizontally splits them for block allocation); [AVP-RL](https://link.springer.com/chapter/10.1007/978-3-030-30278-8_16); [SCVP](https://www.jos.org.cn/jos/article/abstract/6496); SCVP-RV (our model). 
 
 - The recommended reason highlights the advantages of the selected plan, specifically, the extent of improvement in certain optimization metrics compared to ROW (random partitioning). It shows that SCVP-RV achieves a $27\%$ and $41\%$ latency reduction in TPC-H compared to ROW and SCVP (SOTA), and also exhibits notable performance in other metrics (e.g., small gaps between model time overhead). PARS recommends the \verb|SCVP-RV|'s partitioning plan for each TPC-H table due to its highest score (100).
 
-- The logical and physical partitions are illustrated in $\textcircled{5}$ using the TPC-H customer table as an example. This includes the step-by-step partition tree construct process (each split condition is clearly displayed), the page layout (3 column groups), and detailed stored data within each block.
+- The logical and physical partitions are illustrated in ⑤ using the TPC-H customer table as an example. This includes the step-by-step partition tree construct process (each split condition is clearly displayed), the page layout (three column groups), and detailed stored data within each block.
+
+
 
 <div align=center>
 <img width="900"  src="./fig/pars_interface_0522.png">
