@@ -1,0 +1,1 @@
+SELECT c_76,c_21,c_61 FROM widetable100 WHERE c_24<=9239 GROUP BY c_76,c_21,c_61;

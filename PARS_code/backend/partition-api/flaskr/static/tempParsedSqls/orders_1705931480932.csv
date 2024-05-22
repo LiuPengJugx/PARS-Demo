@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+orders,"['o_orderdate', 'o_shippriority']","['o_custkey', 'o_orderkey', 'o_orderdate']",0.19991333333333333,"[[4, '<', 795196800]]","['o_orderdate', 'o_shippriority']","[4, '<', 795196800]"

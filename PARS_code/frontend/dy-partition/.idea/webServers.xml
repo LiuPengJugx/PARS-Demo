@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f3d8b4fe-3ec7-4ca1-96bb-72d6537c63f4" name="133">
+        <fileTransfer rootFolder="/home/liupengju/pycharmProjects" accessType="SFTP" host="10.77.110.133" port="22" sshConfigId="e51af9f0-4b38-4e3a-9b67-fb55d34bacd5" sshConfig="liupengju@10.77.110.133:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

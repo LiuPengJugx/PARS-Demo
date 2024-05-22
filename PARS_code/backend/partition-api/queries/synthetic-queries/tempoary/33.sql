@@ -1,0 +1,1 @@
+SELECT c_77,c_33 FROM widetable100 WHERE c_49>1876 GROUP BY c_77,c_33;

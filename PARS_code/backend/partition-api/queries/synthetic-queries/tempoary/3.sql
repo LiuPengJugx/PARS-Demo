@@ -1,0 +1,1 @@
+SELECT a_8,a_29,a_25,a_10 FROM widetable30 WHERE a_19>5016;

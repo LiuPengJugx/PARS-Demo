@@ -1,0 +1,1 @@
+SELECT c_9,c_92,c_10 FROM widetable100 WHERE c_36>4633 ORDER BY c_36;

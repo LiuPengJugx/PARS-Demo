@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+lineitem,"['l_partkey', 'l_linenumber', 'l_extendedprice']","['l_partkey', 'l_quantity', 'l_shipdate']",0.9012499489570147,"[[10, '<', 886608000], [1, '=', 2], [4, '>', 5]]",['l_partkey'],"['or', [['and', [[1, '=', 2], [4, '>', 5]]], [10, '<', 886608000]]]"

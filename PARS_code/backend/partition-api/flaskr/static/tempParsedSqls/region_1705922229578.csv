@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+region,[],"['r_regionkey', 'r_name']",0.2,"[[1, '=', 'EUROPE']]",[],"[1, '=', 'EUROPE']"

@@ -1,0 +1,1 @@
+SELECT a_23,a_13 FROM widetable30 WHERE a_19<6493 and a_4>=4850 GROUP BY a_23,a_13;

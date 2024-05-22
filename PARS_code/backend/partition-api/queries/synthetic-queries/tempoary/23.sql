@@ -1,0 +1,1 @@
+SELECT c_41,c_85,c_53 FROM widetable100 WHERE c_65>98 or c_99>=1206 ORDER BY c_65;

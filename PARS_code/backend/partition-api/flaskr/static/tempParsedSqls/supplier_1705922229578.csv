@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+supplier,"['s_acctbal', 's_name', 's_address', 's_phone', 's_comment']","['s_suppkey', 's_nationkey']",1,[],"['s_name', 's_acctbal']",[]

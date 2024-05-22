@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="adddd07b0fd05be76d23245c3e187f686d9b4478fe9dad8a" />
+          <option name="urlString" value="http://10.77.110.133:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="adddd07b0fd05be76d23245c3e187f686d9b4478fe9dad8a" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="460bf1e4e603a2595719763a345ac79d5c2272ad0cf8b10f" />
+          <option name="urlString" value="http://10.77.110.133:8889/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="460bf1e4e603a2595719763a345ac79d5c2272ad0cf8b10f" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="c5543017cebab6af1cf881da5afde9a53861572fb359a6fe" />
+          <option name="urlString" value="http://10.77.110.133:8890/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="c5543017cebab6af1cf881da5afde9a53861572fb359a6fe" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/../PAW-Join/.idea/PAW-Join.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="adddd07b0fd05be76d23245c3e187f686d9b4478fe9dad8a" />
+              <option name="urlString" value="http://10.77.110.133:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="adddd07b0fd05be76d23245c3e187f686d9b4478fe9dad8a" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RLTEST/.idea/RLTEST.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="urlString" value="http://10.77.110.133:8889/" />
+              <authParams2>
+                <map />
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../VerticalPartitioningCompare/.idea/VerticalPartitioningCompare.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="D:\Program Files (x86)\anaconda3\envs\pytorch\python.exe" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PAW-Join/.idea/PAW-Join.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="460bf1e4e603a2595719763a345ac79d5c2272ad0cf8b10f" />
+              <option name="urlString" value="http://10.77.110.133:8889/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="460bf1e4e603a2595719763a345ac79d5c2272ad0cf8b10f" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RLTEST/.idea/RLTEST.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="urlString" value="http://10.77.110.133:8889/" />
+              <authParams2>
+                <map />
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../VerticalPartitioningCompare/.idea/VerticalPartitioningCompare.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkHomePath" value="D:\Program Files (x86)\anaconda3\envs\pytorch\python.exe" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

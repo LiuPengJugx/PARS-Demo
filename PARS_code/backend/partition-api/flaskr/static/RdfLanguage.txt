@@ -1,0 +1,41 @@
+@prefix supp:<http://www.w3.org/ns/supp#>
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix dc:<http://purl.org/dc/term>
+@prefix dc:<http://purl.org/dc/elements/1.1/>
+@prefix prov:<http://www.w3.org/ns/prov#>
+:content{
+    rdf:subject:多级转向压裂技术
+    rdf:predicate:压开
+    rdf:object:新的分支裂缝
+    rdf:predicate:沟通
+    rdf:object:更多微裂缝
+    rdf:predicate:增大
+    rdf:object:油层泄油面积
+    rdf:predicate:提高
+    rdf:object:新疆油田X区块采收率
+}
+:carrier{
+    :content dc:language:中文
+    :content dc:title:低渗透储层多级转向压裂技术
+    :content dc:publisher:石油钻探技术
+    :content dc:creator:周丹
+    :content dc:creator:董波
+    :content dc:creator:贺勇
+    :content dc:creator:熊旭东
+    :content dc:creator:何军榜
+    :content dc:publishAtTime:2020年1月
+    :content dc:wasDerivedFrom:Doi:10.11911/syztjs.2019077
+}
+:attribute{
+    :objectunit supp:hasTheoryBasis:多级转向压裂技术原理
+    :objectunit supp:methos:实验法
+    :objectunit rdf:type:结论类对象单元
+    :objectunit dc:identifier:http://ruc.edu.cn/lib/ku/20210008
+    :objectunit dc:hasVersion:1.0
+    :objectunit prov:wasGeneratedBy:周丹
+    :objectunit prov:wasGeneratedAtTime:2020年2月
+}
+:relation{
+    :objectunit prov:internalRelation:相关关系
+    :objectunit prov:location:结论
+}

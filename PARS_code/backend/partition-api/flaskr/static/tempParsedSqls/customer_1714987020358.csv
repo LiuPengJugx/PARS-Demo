@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+customer,[],"['c_mktsegment', 'c_custkey']",0.12041666666666667,"[[6, '=', 4]]",[],"[6, '=', 4]"

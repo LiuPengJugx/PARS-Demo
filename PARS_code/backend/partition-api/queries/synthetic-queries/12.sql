@@ -1,0 +1,1 @@
+SELECT c_27,c_52,c_14,c_32 FROM widetable100 WHERE c_87<2119 GROUP BY c_27,c_52,c_14,c_32;

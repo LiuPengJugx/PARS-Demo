@@ -1,0 +1,1 @@
+SELECT c_50,c_6,c_89,c_69 FROM widetable100 WHERE c_15<6616 ORDER BY c_15;

@@ -1,0 +1,1 @@
+SELECT c_8,c_35,c_63 FROM widetable100 WHERE c_27>=7001 GROUP BY c_8,c_35,c_63;

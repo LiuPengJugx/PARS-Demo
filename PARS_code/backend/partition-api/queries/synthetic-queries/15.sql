@@ -1,0 +1,1 @@
+SELECT c_5,c_32,c_77 FROM widetable100 WHERE c_85<=6992 and c_83>2524 ORDER BY c_83;

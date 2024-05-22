@@ -1,0 +1,1 @@
+SELECT c_66 FROM widetable100 WHERE c_35>=6319 and c_42>=7252 GROUP BY c_66;

@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/liuhuan/anaconda3/envs/aidb/bin/python",
+    "python.analysis.extraPaths": [
+        "./flaskr/algorithms/controller",
+        "./flaskr/algorithms"
+    ]
+}

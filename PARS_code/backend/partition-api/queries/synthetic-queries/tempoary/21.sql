@@ -1,0 +1,1 @@
+SELECT c_51,c_11,c_8 FROM widetable100 WHERE c_89<7145 GROUP BY c_51,c_11,c_8;

@@ -1,0 +1,8 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+nation,[1],[0],6.8,[],[1],[]
+nation,[],"[0, 1]",0.04,"[[1, '=', 'GERMANY']]",[],"[1, '=', 'GERMANY']"
+nation,[1],"[0, 2]",6.8,[],[1],[]
+nation,[],"[0, 1]",0.04,"[[1, '=', 'CANADA']]",[],"[1, '=', 'CANADA']"
+nation,[],"[0, 1]",0.04,"[[1, '=', 'SAUDI ARABIA']]",[],"[1, '=', 'SAUDI ARABIA']"
+nation,[1],"[0, 2]",6.8,[],[1],[]
+nation,[],[],0.08,"[[1, '=', 'FRANCE'], [1, '=', 'GERMANY'], [1, '=', 'GERMANY'], [1, '=', 'FRANCE']]",[],"['or', [['and', [[1, '=', 'FRANCE'], [1, '=', 'GERMANY']]], ['and', [[1, '=', 'GERMANY'], [1, '=', 'FRANCE']]]]]"

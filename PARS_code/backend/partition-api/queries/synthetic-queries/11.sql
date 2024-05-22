@@ -1,0 +1,1 @@
+SELECT c_11,c_66 FROM widetable100 WHERE c_86>=2730 GROUP BY c_11,c_66;

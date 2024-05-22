@@ -1,0 +1,1 @@
+SELECT c_27,c_15 FROM widetable100 WHERE c_15>9517 and c_66<9417 GROUP BY c_27,c_15;

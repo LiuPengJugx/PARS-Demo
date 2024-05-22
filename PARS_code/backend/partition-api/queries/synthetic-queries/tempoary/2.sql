@@ -1,0 +1,1 @@
+SELECT a_17 FROM widetable30 WHERE a_16>=8663 GROUP BY a_17;

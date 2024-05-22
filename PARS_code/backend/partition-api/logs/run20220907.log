@@ -1,0 +1,109 @@
+ * Serving Flask app "flaskr.__init__" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 174-567-194
+10.77.10.171 - - [07/Sep/2022 22:39:22] "[33mGET /aidb/dypartition/talbeProfile/lineitem HTTP/1.1[0m" 404 -
+10.77.10.171 - - [07/Sep/2022 22:39:23] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:39:26] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:40:46] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:40:46] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:40:50] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:43:32] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:43:32] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:11] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:12] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:15] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:22] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:22] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:47:25] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:48:06] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:48:06] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:48:34] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:48:35] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [07/Sep/2022 22:48:38] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+ * Detected change in '/home/liupengju/pycharmProjects/partition-api/flaskr/dy_partition.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 174-567-194
+ * Detected change in '/home/liupengju/pycharmProjects/partition-api/flaskr/dy_partition.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 174-567-194
+10.77.10.171 - - [08/Sep/2022 14:22:00] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:22:00] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:22:01] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+ * Detected change in '/home/liupengju/pycharmProjects/partition-api/flaskr/dy_partition.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 174-567-194
+10.77.10.171 - - [08/Sep/2022 14:26:39] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:26:39] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:26:39] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:33:41] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:33:41] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:34:12] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:34:12] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:48] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:48] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:51] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:51] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:53] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:53] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:55] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:35:55] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:37] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:38] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:38] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:40] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:40] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:41] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:42] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:44] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:44] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:53] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:38:53] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:22] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:22] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:31] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:31] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:35] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:39:35] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:40:57] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:40:57] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:40:57] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:11] "[37mGET /aidb/dypartition/tableProfile/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:11] "[37mGET /aidb/dypartition/columns/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:11] "[37mGET /aidb/dypartition/viewWorkload/orders HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:17] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:17] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:41:17] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:43:00] "[37mGET /aidb/dypartition/columns/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:43:00] "[37mGET /aidb/dypartition/tableProfile/lineitem HTTP/1.1[0m" 200 -
+10.77.10.171 - - [08/Sep/2022 14:43:00] "[37mGET /aidb/dypartition/viewWorkload/lineitem HTTP/1.1[0m" 200 -
+ * Detected change in '/home/liupengju/pycharmProjects/partition-api/flaskr/dy_partition.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/liupengju/pycharmProjects/partition-api/main.py", line 7, in <module>
+    app=create_app()
+  File "/home/liupengju/pycharmProjects/partition-api/flaskr/__init__.py", line 42, in create_app
+    app.register_blueprint(dy_partition.bp)
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1168, in register_blueprint
+    blueprint.register(self, options, first_registration)
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/blueprints.py", line 256, in register
+    deferred(state)
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/blueprints.py", line 294, in <lambda>
+    self.record(lambda s: s.add_url_rule(rule, endpoint, view_func, **options))
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/blueprints.py", line 86, in add_url_rule
+    **options
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 98, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/liupengju/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1284, in add_url_rule
+    "existing endpoint function: %s" % endpoint
+AssertionError: View function mapping is overwriting an existing endpoint function: dypartition.readWorkload

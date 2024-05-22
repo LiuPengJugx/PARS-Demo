@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+orders,['o_orderpriority'],"['o_orderdate', 'o_orderkey']",0.015006666666666666,"[[4, '>=', 741456000], [4, '<', 749404800]]",['o_orderpriority'],"['and', [[4, '>=', 741456000], [4, '<', 749404800]]]"

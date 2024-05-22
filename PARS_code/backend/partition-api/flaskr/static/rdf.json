@@ -1,0 +1,710 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "name": "",
+        "symbolSize": 1,
+        "x": -20,
+        "y": 100,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "1",
+        "name": "",
+        "symbolSize": 1,
+        "x": 100,
+        "y": 120,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "2",
+        "name": "",
+        "symbolSize": 0,
+        "x": 50,
+        "y": 50,
+        "value": 0,
+        "category": 2
+      },
+      {
+        "id": "3",
+        "name": "",
+        "symbolSize": 0,
+        "x": 30,
+        "y": 0,
+        "value": 28.685715,
+        "category": 3
+      },
+
+
+
+      {
+        "id": "4",
+        "name": "多级转向压裂技术原理",
+        "symbolSize": 19.12381,
+        "x": -140,
+        "y": 130,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "5",
+        "name": "实验法",
+        "symbolSize": 19.12381,
+        "x": -110,
+        "y": 160,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "6",
+        "name": "结论类对象单元",
+        "symbolSize": 19.12381,
+        "x": -90,
+        "y": 170,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "7",
+        "name": "http://ruc.edu.cn/lib/ku/20210008",
+        "symbolSize": 19.12381,
+        "x": -70,
+        "y": 190,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "8",
+        "name": "1.0",
+        "symbolSize": 19.12381,
+        "x": -50,
+        "y": 210,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "9",
+        "name": "周丹",
+        "symbolSize": 19.12381,
+        "x": 10,
+        "y": 160,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
+        "id": "10",
+        "name": "2020年2月",
+        "symbolSize": 19.12381,
+        "x": 30,
+        "y": 120,
+        "value": 28.685715,
+        "category": 0
+      }
+      ,
+
+
+
+      {
+        "id": "11",
+        "name": "相关关系",
+        "symbolSize": 19.12381,
+        "x": 120,
+        "y": 180,
+        "value": 28.685715,
+        "category": 1
+      },
+
+      {
+        "id": "12",
+        "name": "结论",
+        "symbolSize": 19.12381,
+        "x": 160,
+        "y": 200,
+        "value": 28.685715,
+        "category": 1
+      },
+
+
+      
+      {
+        "id": "13",
+        "name": "多级转向压裂技术",
+        "symbolSize": 19.12381,
+        "x": 55,
+        "y": 40,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "14",
+        "name": "油层泄油面积",
+        "symbolSize": 19.12381,
+        "x": 140,
+        "y": 60,
+        "value": 28.685715,
+        "category": 2
+      },
+
+
+
+   
+      {
+        "id": "15",
+        "name": "中文",
+        "symbolSize": 19.12381,
+        "x": -60,
+        "y": -20,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "16",
+        "name": "低渗透储层多级转向压裂技术",
+        "symbolSize": 19.12381,
+        "x": -40,
+        "y": -40,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "17",
+        "name": "石油钻探技术",
+        "symbolSize": 19.12381,
+        "x": -50,
+        "y": -100,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "18",
+        "name": "周丹",
+        "symbolSize": 19.12381,
+        "x": -20,
+        "y": -60,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "19",
+        "name": "董波",
+        "symbolSize": 19.12381,
+        "x": 0,
+        "y": -70,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "20",
+        "name": "贺勇",
+        "symbolSize": 19.12381,
+        "x": 20,
+        "y": -80,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "21",
+        "name": "熊旭东",
+        "symbolSize": 19.12381,
+        "x": 40,
+        "y": -90,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "22",
+        "name": "何军榜",
+        "symbolSize": 19.12381,
+        "x": 60,
+        "y": -65,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "23",
+        "name": "2020年1月",
+        "symbolSize": 19.12381,
+        "x": 80,
+        "y": -55,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "24",
+        "name": "Doi:10.11911/syztjs.2019077",
+        "symbolSize": 19.12381,
+        "x": 100,
+        "y": -30,
+        "value": 28.685715,
+        "category": 3
+      },
+
+
+      {
+        "id": "25",
+        "name": "中国石油新疆油田分公司百口泉采油厂",
+        "symbolSize": 19.12381,
+        "x": 5,
+        "y": -160,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "26",
+        "name": "中国石油新疆油田分公司工程技术处",
+        "symbolSize": 19.12381,
+        "x": 45,
+        "y": -130,
+        "value": 28.685715,
+        "category": 3
+      },
+      {
+        "id": "27",
+        "name": "新疆克拉玛依市井下作业公司",
+        "symbolSize": 19.12381,
+        "x": 80,
+        "y": -110,
+        "value": 28.685715,
+        "category": 3
+      }
+
+      ,
+      {
+        "id": "28",
+        "name": "新的分支裂缝",
+        "symbolSize": 19.12381,
+        "x": 140,
+        "y": 20,
+        "value": 28.685715,
+        "category": 2
+      }
+      ,
+      {
+        "id": "29",
+        "name": "更多微裂缝",
+        "symbolSize": 19.12381,
+        "x": 140,
+        "y": 40,
+        "value": 28.685715,
+        "category": 2
+      }
+      ,
+      {
+        "id": "30",
+        "name": "新疆油田X区块采收率",
+        "symbolSize": 19.12381,
+        "x": 140,
+        "y": 80,
+        "value": 28.685715,
+        "category": 2
+      }
+      ,
+      {
+        "id": "31",
+        "name": "岩石",
+        "symbolSize": 19.12381,
+        "x": -110,
+        "y": 50,
+        "value": 28.685715,
+        "category": 2
+      }
+      ,
+      {
+        "id": "32",
+        "name": "水力压裂",
+        "symbolSize": 19.12381,
+        "x": -150,
+        "y": 20,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "33",
+        "name": "张开型模式",
+        "symbolSize": 19.12381,
+        "x": -180,
+        "y": 40,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "34",
+        "name": "滑开型模式",
+        "symbolSize": 19.12381,
+        "x": -190,
+        "y": 60,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "35",
+        "name": "撕开型模式",
+        "symbolSize": 19.12381,
+        "x": -145,
+        "y": 80,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "36",
+        "name": "",
+        "symbolSize": 19.12381,
+        "x": -120,
+        "y": -20,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "37",
+        "name": "整体一部分关系",
+        "symbolSize": 19.12381,
+        "x": -170,
+        "y": -50,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "38",
+        "name": "2.1 暂堵转向起裂机理",
+        "symbolSize": 19.12381,
+        "x": -100,
+        "y": -60,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "39",
+        "name": "",
+        "symbolSize": 0,
+        "x": -105,
+        "y": 45,
+        "value": 28.685715,
+        "category": 2
+      },
+      {
+        "id": "40",
+        "name": "",
+        "symbolSize": 1,
+        "x": 20,
+        "y": 15,
+        "value": 28.685715,
+        "category": 3
+      }
+    ],
+    "links": [
+        {
+          "source": "2",
+          "target": "0"
+        },
+        {
+          "source": "2",
+          "target": "1"
+        },
+        {
+          "source": "2",
+          "target": "3"
+        }
+        
+        ,{
+          "source": "0",
+          "target": "4",
+          "label":{
+            "show":true,
+            "formatter":"supp:hasTheoryBasis"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "5",
+          "label":{
+            "show":true,
+            "formatter":"supp:methos"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "6",
+          "label":{
+            "show":true,
+            "formatter":"rdf:type"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "7",
+          "label":{
+            "show":true,
+            "formatter":"dc:identifier"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "8",
+          "label":{
+            "show":true,
+            "formatter":"dc:hasVersion"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "9",
+          "label":{
+            "show":true,
+            "formatter":"prov:wasGeneratedBy"
+          }
+        }
+        ,{
+          "source": "0",
+          "target": "10",
+          "label":{
+            "show":true,
+            "formatter":"prov:wasGeneratedAtTime"
+          }
+        }
+
+
+        ,{
+          "source": "1",
+          "target": "11",
+          "label":{
+            "show":true,
+            "formatter":"prov:internalRelation"
+          }
+        }
+        ,{
+          "source": "1",
+          "target": "12",
+          "label":{
+            "show":true,
+            "formatter":"prov:location"
+          }
+        }
+        
+        ,{
+          "source": "13",
+          "target": "28",
+          "label":{
+            "show":true,
+            "formatter":"压开"
+          }
+        }
+        ,{
+          "source": "13",
+          "target": "29",
+          "label":{
+            "show":true,
+            "formatter":"沟通"
+          }
+        }
+        ,{
+          "source": "13",
+          "target": "14",
+          "label":{
+            "show":true,
+            "formatter":"增大"
+          }
+        }
+        ,{
+          "source": "13",
+          "target": "30",
+          "label":{
+            "show":true,
+            "formatter":"提高"
+          }
+        }
+
+        ,{
+          "source": "3",
+          "target": "15",
+          "label":{
+            "show":true,
+            "formatter":"dc:language"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "16",
+          "label":{
+            "show":true,
+            "formatter":"dc:title"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "17",
+          "label":{
+            "show":true,
+            "formatter":"dc:publisher"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "18",
+          "label":{
+            "show":true,
+            "formatter":"dc:creator"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "19",
+          "label":{
+            "show":true,
+            "formatter":"dc:creator"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "20",
+          "label":{
+            "show":true,
+            "formatter":"dc:creator"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "21",
+          "label":{
+            "show":true,
+            "formatter":"dc:creator"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "22",
+          "label":{
+            "show":true,
+            "formatter":"dc:creator"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "23",
+          "label":{
+            "show":true,
+            "formatter":"dc:publishAtTime"
+          }
+        }
+        ,{
+          "source": "3",
+          "target": "24",
+          "label":{
+            "show":true,
+            "formatter":"dc:wasDerivedFrom"
+          }
+        }
+
+        ,{
+          "source": "18",
+          "target": "25",
+          "label":{
+            "show":true,
+            "formatter":"institution"
+          }
+        }
+        ,{
+          "source": "19",
+          "target": "26",
+          "label":{
+            "show":true,
+            "formatter":"institution"
+          }
+        }
+        ,{
+          "source": "20",
+          "target": "27",
+          "label":{
+            "show":true,
+            "formatter":"institution"
+          }
+        }
+        ,{
+          "source": "21",
+          "target": "27",
+          "label":{
+            "show":true,
+            "formatter":"institution"
+          }
+        }
+
+        ,{
+          "source": "39",
+          "target": "0"
+        }
+        ,{
+          "source": "39",
+          "target": "40"
+        }
+        ,{
+          "source": "31",
+          "target": "32",
+          "label":{
+            "show":true,
+            "formatter":"作用"
+          }
+        }
+        ,{
+          "source": "31",
+          "target": "33",
+          "label":{
+            "show":true,
+            "formatter":"裂纹开裂"
+          }
+        }
+        ,{
+          "source": "31",
+          "target": "34",
+          "label":{
+            "show":true,
+            "formatter":"裂纹开裂"
+          }
+        }
+        ,{
+          "source": "31",
+          "target": "35",
+          "label":{
+            "show":true,
+            "formatter":"裂纹开裂"
+          }
+        }
+        ,{
+          "source": "39",
+          "target": "36"
+        }
+        ,{
+          "source": "36",
+          "target": "37",
+          "label":{
+            "show":true,
+            "formatter":"prov:internalRelation"
+          }
+        }
+        ,{
+          "source": "36",
+          "target": "38",
+          "label":{
+            "show":true,
+            "formatter":"prov:location"
+          }
+        }
+
+    ],
+    "categories": [
+        {
+          "name": "属性层"
+        },
+        {
+          "name": "关联层"
+        },
+        {
+          "name": "内容层"
+        },
+        {
+          "name": "载体层"
+        }
+      ]
+
+
+}

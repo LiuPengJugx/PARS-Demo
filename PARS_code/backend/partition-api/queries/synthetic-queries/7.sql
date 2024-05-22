@@ -1,0 +1,1 @@
+SELECT b_41 FROM widetable50 WHERE b_15>3639 and b_37>9895 GROUP BY b_41;

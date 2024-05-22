@@ -1,0 +1,1 @@
+SELECT c_89 FROM widetable100 WHERE c_52>3392 and c_59<3470 GROUP BY c_89;

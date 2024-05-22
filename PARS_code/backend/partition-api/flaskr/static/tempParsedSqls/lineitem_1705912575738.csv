@@ -1,0 +1,14 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+lineitem,"['l_returnflag', 'l_linestatus', 'l_quantity', 'l_extendedprice', 'l_discount', 'l_tax']",['l_shipdate'],0.4206133658452844,"[[10, '<=', 912441600]]","['l_returnflag', 'l_linestatus']","[10, '<=', 912441600]"
+lineitem,"['l_extendedprice', 'l_discount']","['l_orderkey', 'l_returnflag']",0.10498187869853304,"[[8, '=', 1]]","['l_discount', 'l_extendedprice']","[8, '=', 1]"
+lineitem,['l_shipmode'],"['l_orderkey', 'l_shipmode', 'l_commitdate', 'l_receiptdate', 'l_shipdate']",0.0020333858624681143,"[[14, '=', [2, 6]], [12, '>=', 757353600], [12, '<', 788889600]]",['l_shipmode'],"['and', [[14, '=', [2, 6]], [12, '>=', 757353600], [12, '<', 788889600]]]"
+lineitem,"['l_extendedprice', 'l_discount']","['l_partkey', 'l_shipdate']",0.005280136403523757,"[[10, '>=', 809884800], [10, '<', 812476800]]",[],"['and', [[10, '>=', 809884800], [10, '<', 812476800]]]"
+lineitem,"['l_extendedprice', 'l_quantity']","['l_partkey', 'l_quantity']",1.0095710805862486,[],[],[]
+lineitem,"['l_quantity', 'l_orderkey']",[],1.0095710805862486,[],"['l_orderkey', 'l_quantity']",[]
+lineitem,"['l_extendedprice', 'l_discount']","['l_partkey', 'l_quantity', 'l_shipmode', 'l_shipinstruct']",0.00777020073018553,"[[4, '>=', 1], [4, '<=', 11], [14, '=', [4, -1]], [13, '=', 2], [4, '>=', 10], [4, '<=', 20], [14, '=', [4, -1]], [13, '=', 2], [4, '>=', 20], [4, '<=', 30], [14, '=', [4, -1]], [13, '=', 2]]",[],"['or', [['and', [[4, '>=', 1], [4, '<=', 11], [14, '=', [4, -1]], [13, '=', 2]]], ['and', [[4, '>=', 10], [4, '<=', 20], [14, '=', [4, -1]], [13, '=', 2]]], ['and', [[4, '>=', 20], [4, '<=', 30], [14, '=', [4, -1]], [13, '=', 2]]]]]"
+lineitem,['l_quantity'],"['l_partkey', 'l_suppkey', 'l_shipdate']",8.333548616672597e-07,[],[],[]
+lineitem,"['l_orderkey', 'l_extendedprice', 'l_discount']","['l_orderkey', 'l_shipdate']",0.2279142211173789,"[[10, '>', 795196800]]","['l_discount', 'l_extendedprice', 'l_orderkey']","[10, '>', 795196800]"
+lineitem,[],"['l_orderkey', 'l_commitdate', 'l_receiptdate']",0.1402186223144098,[],[],[]
+lineitem,"['l_extendedprice', 'l_discount']","['l_orderkey', 'l_suppkey']",0.420654200233506,[],"['l_extendedprice', 'l_discount']",[]
+lineitem,"['l_extendedprice', 'l_discount']","['l_shipdate', 'l_discount', 'l_quantity']",0.008106042739437436,"[[10, '>=', 757353600], [10, '<', 788889600], [6, '>=', 0.049999999999999996], [6, '<=', 0.06999999999999999], [4, '<', 24]]",[],"['and', [[10, '>=', 757353600], [10, '<', 788889600], ['and', [[6, '>=', 0.049999999999999996], [6, '<=', 0.06999999999999999]]], [4, '<', 24]]]"
+lineitem,"['l_shipdate', 'l_extendedprice', 'l_discount']","['l_suppkey', 'l_orderkey', 'l_shipdate']",0.12983168731858907,"[[10, '>=', 788889600], [10, '<=', 851961600]]",['l_shipdate'],"['and', [[10, '>=', 788889600], [10, '<=', 851961600]]]"

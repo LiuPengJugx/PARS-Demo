@@ -1,0 +1,2 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+partsupp,['ps_supplycost'],"['ps_partkey', 'ps_suppkey', 'ps_supplycost']",0.41666875,[],[],[]

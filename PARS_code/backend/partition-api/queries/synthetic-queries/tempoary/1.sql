@@ -1,0 +1,1 @@
+SELECT a_0,a_14,a_21 FROM widetable30 WHERE a_21<7953 and a_29>8210 ORDER BY a_29;

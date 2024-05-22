@@ -1,0 +1,13 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+customer,"['c_custkey', 'c_name', 'c_acctbal', 'c_address', 'c_phone', 'c_comment']","['c_custkey', 'c_nationkey']",0.5882333333333334,[],"['c_phone', 'c_comment', 'c_custkey', 'c_name', 'c_acctbal', 'c_address']",[]
+customer,['c_custkey'],[],0.5882333333333334,[],['c_custkey'],[]
+customer,"['c_name', 'c_custkey']",[],1,[],"['c_custkey', 'c_name']",[]
+customer,[],"['c_mktsegment', 'c_custkey']",0.11988333333333333,"[[6, '=', 4]]",[],"[6, '=', 4]"
+customer,[],"['c_custkey', 'c_nationkey']",0.5882333333333334,[],[],[]
+customer,[],"['c_custkey', 'c_nationkey']",0.5882333333333334,[],[],[]
+customer,"[0, 1, 5, 2, 4, 7]","[0, 3]",0.5882333333333334,[],"[4, 7, 0, 1, 5, 2]",[]
+customer,[0],[],0.5882333333333334,[],[0],[]
+customer,"[1, 0]",[],1.0,[],"[0, 1]",[]
+customer,[],"[6, 0]",0.11988333333333333,"[[6, '=', 'BUILDING']]",[],"[6, '=', 4]"
+customer,[],"[0, 3]",0.5882333333333334,[],[],[]
+customer,[],"[0, 3]",0.5882333333333334,[],[],[]

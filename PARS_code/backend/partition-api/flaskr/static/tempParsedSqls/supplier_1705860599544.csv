@@ -1,0 +1,8 @@
+tab,scan,filter,sel,preds,gp_ob,lg_preds
+supplier,[],"['s_suppkey', 's_nationkey']",1,[],[],[]
+supplier,['s_suppkey'],['s_comment'],0.0005,[],[],[]
+supplier,"['s_acctbal', 's_name', 's_address', 's_phone', 's_comment']","['s_suppkey', 's_nationkey']",1,[],"['s_acctbal', 's_name']",[]
+supplier,"['s_name', 's_address']","['s_suppkey', 's_nationkey']",1,[],['s_name'],[]
+supplier,['s_name'],"['s_suppkey', 's_nationkey']",1,[],['s_name'],[]
+supplier,[],"['s_suppkey', 's_nationkey']",1,[],[],[]
+supplier,[],"['s_suppkey', 's_nationkey']",1,[],[],[]

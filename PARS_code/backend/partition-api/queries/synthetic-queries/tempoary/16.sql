@@ -1,0 +1,1 @@
+SELECT c_12,c_34 FROM widetable100 WHERE c_35>5346 ORDER BY c_35;

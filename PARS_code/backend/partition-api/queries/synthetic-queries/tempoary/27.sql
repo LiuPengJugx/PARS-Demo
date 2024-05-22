@@ -1,0 +1,1 @@
+SELECT c_5,c_47,c_27,c_22 FROM widetable100 WHERE c_40<=4393 and c_62<=7124 GROUP BY c_5,c_47,c_27,c_22;

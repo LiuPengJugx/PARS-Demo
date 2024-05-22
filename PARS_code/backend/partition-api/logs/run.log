@@ -1,0 +1,937 @@
+nohup: 忽略输入
+ * Serving Flask app "flaskr.__init__" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+10.77.110.152 - - [23/Sep/2021 18:03:17] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:03:17] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:03:17] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:06] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:09] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:12] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:21] "[37mPOST /aidb/user/logout HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:22] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:22] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:05:22] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:06:02] "[37mPOST /aidb/user/logout HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:06:03] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:06:03] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:06:03] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:06:08] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:40] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:50] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:51] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:56] "[37mPOST /aidb/user/logout HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:57] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:57] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:07:57] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:54:47] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 18:55:16] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:22:52] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=77&pageSize=8&pageCount=10&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:27:25] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=77&pageSize=8&pageCount=10&currentPage=2 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:27:26] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=77&pageSize=8&pageCount=10&currentPage=3 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:27:26] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=77&pageSize=8&pageCount=10&currentPage=6 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:27:28] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=77&pageSize=8&pageCount=10&currentPage=7 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:27:37] "[37mGET /aidb/storage/tableInfo/nation?tabName=nation&rowNum=77&pageSize=8&pageCount=10&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:28:05] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:28:19] "[37mGET /aidb/storage/tableInfo/columns/nation HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:28:26] "[37mGET /aidb/storage/workload/nation HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:59:51] "[37mGET /aidb/storage/workload/nation HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 19:59:56] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:15] "[37mGET /static/tempWorkload/nation1632398348199.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:15] "[35m[1mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/storage.py", line 138, in getAnalysisResult
+    result=run(workloads,algorithm_indexs,costModels[0],baseDir)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/demo.py", line 75, in run
+    ray.init(address='auto', _redis_password='5241590000000000')
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/client_mode_hook.py", line 47, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/worker.py", line 632, in init
+    redis_address, _, _ = services.validate_redis_address(address)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/services.py", line 356, in validate_redis_address
+    address = find_redis_address_or_die()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/services.py", line 249, in find_redis_address_or_die
+    "Could not find any running Ray instance. "
+ConnectionError: Could not find any running Ray instance. Please specify the one to connect to by setting `address`.
+10.77.110.152 - - [23/Sep/2021 20:27:29] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:30] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:37] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:37] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:37] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:37] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:37] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:38] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:38] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 14639.80it/s]
+10.77.110.152 - - [23/Sep/2021 20:27:38] "[35m[1mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/storage.py", line 138, in getAnalysisResult
+    result=run(workloads,algorithm_indexs,costModels[0],baseDir)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/demo.py", line 75, in run
+    ray.init(address='auto', _redis_password='5241590000000000')
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/client_mode_hook.py", line 47, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/worker.py", line 632, in init
+    redis_address, _, _ = services.validate_redis_address(address)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/services.py", line 356, in validate_redis_address
+    address = find_redis_address_or_die()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/ray/_private/services.py", line 249, in find_redis_address_or_die
+    "Could not find any running Ray instance. "
+ConnectionError: Could not find any running Ray instance. Please specify the one to connect to by setting `address`.
+10.77.110.152 - - [23/Sep/2021 20:27:41] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:27:42] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/demo.py', reloading
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+{'fname': 'nation1632398348199', 'data': [{'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [0, -1], 'selectivity': 0.04}, {'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}]} <class 'dict'>
+{'workloads': ['nation1632398348199.csv'], 'methods': [0, 1, 10], 'costModels': ['Huang']}
+token= admin-token
+{'workloads': ['customer1621836580261.csv', 'supplier1621958597615.csv', 'region1621958280154.csv', 'nation1621958273183.csv', 'partsupp1621960620750.csv'], 'methods': [0, 1, 10, 3, 5, 6, 9], 'costModels': ['Huang']}
+[[0], [3], [1], [4], [5], [6], [2], [7]]
+token= admin-token
+nohup: 忽略输入
+ * Serving Flask app "flaskr.__init__" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+10.77.110.152 - - [23/Sep/2021 20:51:10] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:10] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:10] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:14] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:18] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:18] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:18] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:18] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:18] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:19] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:51:19] "[35m[1mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/storage.py", line 138, in getAnalysisResult
+    result=run(workloads,algorithm_indexs,costModels[0],baseDir)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/demo.py", line 72, in run
+    partitions.append(compute_cost_by_frequent_pattern(file_input_info))
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/frequent_pattern.py", line 47, in compute_cost_by_frequent_pattern
+    candidate_paritions=split_all_candidate_paritions(path,complete_column_range,file_input_info['attr_num'])
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/frequent_pattern.py", line 12, in split_all_candidate_paritions
+    data_set,item_num=load_data(filename,complete_column_range,attr_num)
+TypeError: load_data() takes 2 positional arguments but 3 were given
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/ColumnCluster.py', reloading
+token= admin-token
+token= admin-token
+{'workloads': ['customer1621836580261.csv', 'supplier1621958597615.csv', 'region1621958280154.csv', 'nation1621958273183.csv', 'partsupp1621960620750.csv'], 'methods': [0, 1, 10, 3, 5, 6, 9], 'costModels': ['Huang']}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/frequent_pattern.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/algorithms/SCVP/frequent_pattern.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+10.77.110.152 - - [23/Sep/2021 20:57:13] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:14] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:17] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:17] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:18] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:18] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:18] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:18] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 60640.54it/s]
+10.77.110.152 - - [23/Sep/2021 20:57:18] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 38479.85it/s]token= admin-token
+{'workloads': ['customer1621836580261.csv', 'supplier1621958597615.csv', 'region1621958280154.csv', 'nation1621958273183.csv', 'partsupp1621960620750.csv'], 'methods': [0, 1, 10, 3, 5, 6, 9], 'costModels': ['Huang']}
+[[0], [3], [1], [4], [5], [6], [2], [7]]
+
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 58661.59it/s]
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 52648.17it/s][[0, 3], [1, 2], [4, 5], [6]]
+
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 11305.40it/s]
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 21620.12it/s][[0, 1], [2]]
+
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 30393.51it/s]
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 37117.73it/s][[0, 1, 2], [3]]
+
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 49490.31it/s]
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 43018.50it/s][[0, 1, 3], [2], [4]]
+
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 20:57:19] "[37mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:11] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:20] "[37mGET /aidb/storage/tableInfo/nation?tabName=nation&rowNum=100&pageSize=8&pageCount=13&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:23] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:27] "[37mGET /aidb/storage/tableInfo/columns/nation HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:40] "[37mGET /aidb/storage/workload/nation HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:41] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:45] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:49] "[37mGET /aidb/storage/workload/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:00:51] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/nation1632401994163.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/customer1632402003374.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/nation1632401994163.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 27776.85it/s]{'methods': ['OPTIMAL', 'O2P', 'AUTOPART', 'HILLCLIMB', 'Row', 'HYF', 'SCVP'], 'result': [{'workload': 'customer1621836580261.csv', 'partitions': [[['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_name'], ['c_nationkey', 'c_custkey']], [['c_custkey'], ['c_comment'], ['c_acctbal'], ['c_phone'], ['c_name'], ['c_nationkey'], ['c_mktsegment', 'c_address']], [['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_mktsegment'], ['c_nationkey', 'c_custkey'], ['c_name']], [['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_name'], ['c_nationkey', 'c_custkey']], [['c_custkey', 'c_name', 'c_address', 'c_nationkey', 'c_phone', 'c_acctbal', 'c_mktsegment', 'c_comment']], [['c_custkey'], ['c_nationkey'], ['c_name'], ['c_phone'], ['c_acctbal'], ['c_mktsegment'], ['c_address'], ['c_comment']], [['c_custkey', 'c_nationkey'], ['c_address', 'c_comment'], ['c_name'], ['c_phone', 'c_acctbal'], ['c_mktsegment']]], 'costs': [8742.0, 10425.0, 8742.0, 8742.0, 45080.0, 9425.0, 8742.0]}, {'workload': 'supplier1621958597615.csv', 'partitions': [[['s_comment', 's_acctbal'], ['s_phone', 's_address'], ['s_name'], ['s_nationkey', 's_suppkey']], [['s_suppkey'], ['s_phone'], ['s_name'], ['s_nationkey'], ['s_address'], ['s_comment', 's_acctbal']], [['s_acctbal', 's_phone'], ['s_comment'], ['s_nationkey', 's_suppkey'], ['s_address'], ['s_name']], [['s_comment'], ['s_acctbal', 's_phone'], ['s_address'], ['s_name'], ['s_nationkey', 's_suppkey']], [['s_suppkey', 's_name', 's_address', 's_nationkey', 's_phone', 's_acctbal', 's_comment']], [['s_suppkey', 's_nationkey'], ['s_name', 's_address'], ['s_phone', 's_acctbal'], ['s_comment']], [['s_comment'], ['s_address'], ['s_suppkey', 's_nationkey'], ['s_name'], ['s_phone', 's_acctbal']]], 'costs': [13821.0, 15041.0, 13841.0, 13841.0, 40120.0, 14161.0, 13841.0]}, {'workload': 'region1621958280154.csv', 'partitions': [[['r_name', 'r_regionkey'], ['r_comment']], [['r_name', 'r_regionkey'], ['r_comment']], [['r_comment'], ['r_name', 'r_regionkey']], [['r_comment'], ['r_name', 'r_regionkey']], [['r_regionkey', 'r_name', 'r_comment']], [['r_regionkey', 'r_name'], ['r_comment']], [['r_regionkey', 'r_name'], ['r_comment']]], 'costs': [1980, 1980, 1980, 1980, 11100, 1980, 1980]}, {'workload': 'nation1621958273183.csv', 'partitions': [[['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_nationkey', 'n_name', 'n_regionkey', 'n_comment']], [['n_nationkey', 'n_name', 'n_regionkey'], ['n_comment']], [['n_nationkey', 'n_name', 'n_regionkey'], ['n_comment']]], 'costs': [7060.0, 7060.0, 7060.0, 7060.0, 34420.0, 7060.0, 7060.0]}, {'workload': 'partsupp1621960620750.csv', 'partitions': [[['ps_availqty'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey'], ['ps_comment']], [['ps_availqty', 'ps_suppkey', 'ps_partkey'], ['ps_comment', 'ps_supplycost']], [['ps_comment'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey'], ['ps_availqty']], [['ps_comment'], ['ps_availqty'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey']], [['ps_partkey', 'ps_suppkey', 'ps_availqty', 'ps_supplycost', 'ps_comment']], [['ps_partkey', 'ps_suppkey', 'ps_supplycost'], ['ps_availqty'], ['ps_comment']], [['ps_partkey', 'ps_suppkey', 'ps_supplycost'], ['ps_availqty'], ['ps_comment']]], 'costs': [2162.0, 14500.0, 2162.0, 2162.0, 22140.0, 2162.0, 2162.0]}]}
+{'fname': 'nation1632401994163', 'data': [{'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [0, -1], 'selectivity': 0.04}, {'value': [0, 1, 2], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}, {'value': [0, 1], 'freq': 1, 'scan_key': [1], 'selectivity': 0.04}]} <class 'dict'>
+{'fname': 'customer1632402003374', 'data': [{'value': [0, 6], 'freq': 1, 'scan_key': [6], 'selectivity': 0.2}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 2, 3, 4, 5, 7], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 4, 5], 'freq': 1, 'scan_key': [4, 5], 'selectivity': 0.255}]} <class 'dict'>
+{'workloads': ['nation1632401994163.csv', 'customer1632402003374.csv'], 'methods': [0, 1, 10, 2, 3], 'costModels': ['Huang']}
+
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/nation1632401994163.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/customer1632402003374.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 68571.73it/s]
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mGET /static/tempWorkload/customer1632402003374.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [23/Sep/2021 21:01:27] "[37mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 20:38:00] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 20:38:00] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 20:38:00] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 21:25:45] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 21:25:45] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 21:25:45] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 21:25:49] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [24/Sep/2021 21:25:49] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [26/Sep/2021 16:51:49] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [26/Sep/2021 17:10:44] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.188.66 - - [26/Sep/2021 17:11:49] "[37mGET /static/compress/buffer.png HTTP/1.1[0m" 200 -
+10.77.110.152 - - [26/Sep/2021 17:13:57] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.188.66 - - [26/Sep/2021 17:22:08] "[37mGET /static/compress/buffer.png HTTP/1.1[0m" 200 -
+10.77.110.152 - - [26/Sep/2021 17:22:36] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.188.66 - - [26/Sep/2021 17:30:43] "[36mGET /static/compress/buffer.png HTTP/1.1[0m" 304 -
+10.77.110.152 - - [27/Sep/2021 09:25:15] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 09:25:15] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 09:25:15] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 09:33:05] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 09:33:10] "[37mGET /static/compress/buffer.png HTTP/1.1[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 09:33:42] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [27/Sep/2021 13:16:10] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:33:21] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:33:21] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.188.66 - - [28/Sep/2021 09:33:40] "[36mGET /static/compress/buffer.png HTTP/1.1[0m" 304 -
+10.77.110.152 - - [28/Sep/2021 09:59:01] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:59:06] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:59:57] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:59:57] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 09:59:57] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:52:48] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:24] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:24] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:24] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:29] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:47] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=60&pageSize=8&pageCount=8&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:49] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=60&pageSize=8&pageCount=8&currentPage=4 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:50] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=60&pageSize=8&pageCount=8&currentPage=5 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:53:52] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=60&pageSize=8&pageCount=8&currentPage=7 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:02] "[37mGET /aidb/storage/tableInfo/supplier?tabName=supplier&rowNum=60&pageSize=8&pageCount=8&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:09] "[37mGET /aidb/storage/tableInfo/orders?tabName=orders&rowNum=60&pageSize=8&pageCount=8&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:39] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:51] "[37mGET /aidb/storage/workload/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:52] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:56] "[37mGET /aidb/storage/tableInfo/columns/orders HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:54:58] "[37mGET /aidb/storage/workload/orders HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:01] "[37mGET /aidb/storage/tableInfo/columns/supplier HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:02] "[37mGET /aidb/storage/workload/supplier HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:03] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:06] "[37mGET /aidb/storage/tableInfo/columns/orders HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:07] "[37mGET /aidb/storage/workload/orders HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:08] "[37mPOST /aidb/storage/workload/add HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:31] "[37mGET /static/tempWorkload/supplier1632797649822.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:32] "[37mGET /static/tempWorkload/orders1632797654954.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:32] "[37mGET /static/tempWorkload/customer1632797638709.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:32] "[37mGET /static/tempWorkload/customer1632797638709.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 85.79it/s]{'methods': ['O2P', 'AUTOPART', 'NAVATHE', 'HILLCLIMB', 'SCVP'], 'result': [{'workload': 'nation1632401994163.csv', 'partitions': [[['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_nationkey', 'n_name', 'n_regionkey'], ['n_comment']]], 'costs': [7060.0, 7060.0, 7060.0, 7060.0, 7060.0]}, {'workload': 'customer1632402003374.csv', 'partitions': [[['c_custkey'], ['c_comment'], ['c_name'], ['c_nationkey'], ['c_acctbal'], ['c_phone'], ['c_mktsegment', 'c_address']], [['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_mktsegment'], ['c_nationkey', 'c_custkey'], ['c_name']], [['c_custkey'], ['c_comment'], ['c_name'], ['c_nationkey'], ['c_acctbal', 'c_phone'], ['c_mktsegment', 'c_address']], [['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_name'], ['c_nationkey', 'c_custkey']], [['c_custkey', 'c_nationkey'], ['c_address', 'c_comment'], ['c_name'], ['c_phone', 'c_acctbal'], ['c_mktsegment']]], 'costs': [9933.0, 8090.0, 9693.0, 8090.0, 8090.0]}]}
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+{'fname': 'customer1632797638709', 'data': [{'value': [0, 6], 'freq': 1, 'scan_key': [6], 'selectivity': 0.2}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 2, 3, 4, 5, 7], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 4, 5], 'freq': 1, 'scan_key': [4, 5], 'selectivity': 0.255}]} <class 'dict'>
+{'fname': 'supplier1632797649822', 'data': [{'value': [0, 1, 2, 3, 4, 5, 6], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 2, 4], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 6], 'freq': 1, 'scan_key': [6, -1], 'selectivity': 0.00056}, {'value': [0, 1, 2, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 3], 'freq': 1, 'scan_key': [], 'selectivity': 1}]} <class 'dict'>
+{'fname': 'orders1632797654954', 'data': [{'value': [0, 1, 4, 7], 'freq': 1, 'scan_key': [4, -1], 'selectivity': 0.49}, {'value': [0, 4, 5], 'freq': 1, 'scan_key': [4], 'selectivity': 0.0375}, {'value': [0, 1, 4], 'freq': 1, 'scan_key': [4], 'selectivity': 0.152}, {'value': [0, 1], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 4], 'freq': 1, 'scan_key': [4], 'selectivity': 0.304}, {'value': [0, 4], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 4], 'freq': 1, 'scan_key': [4], 'selectivity': 0.0382}, {'value': [0, 5], 'freq': 1, 'scan_key': [], 'selectivity': 1}, {'value': [0, 1, 8], 'freq': 1, 'scan_key': [8], 'selectivity': 0.9890000000000001}, {'value': [0, 1, 3, 4], 'freq': 1, 'scan_key': [0], 'selectivity': 5e-06}, {'value': [0, 2], 'freq': 1, 'scan_key': [2], 'selectivity': 0.48700000000000004}, {'value': [1], 'freq': 1, 'scan_key': [], 'selectivity': 1}]} <class 'dict'>
+{'workloads': ['customer1632797638709.csv', 'supplier1632797649822.csv', 'orders1632797654954.csv'], 'methods': [10, 3, 4, 6, 7], 'costModels': ['Huang']}
+
+10.77.110.152 - - [28/Sep/2021 10:55:32] "[37mGET /static/tempWorkload/customer1632797638709.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:32] "[37mGET /static/tempWorkload/supplier1632797649822.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 59493.67it/s]
+10.77.110.152 - - [28/Sep/2021 10:55:33] "[37mGET /static/tempWorkload/supplier1632797649822.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:33] "[37mGET /static/tempWorkload/orders1632797654954.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 86302.55it/s]
+10.77.110.152 - - [28/Sep/2021 10:55:33] "[37mGET /static/tempWorkload/orders1632797654954.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 10:55:33] "[37mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 11:01:20] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 11:01:20] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [28/Sep/2021 11:01:20] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [30/Sep/2021 12:47:02] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [30/Sep/2021 12:47:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [30/Sep/2021 12:47:02] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [30/Sep/2021 12:47:24] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [30/Sep/2021 12:56:07] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py', reloading
+{'methods': ['O2P', 'TROJAN', 'Row', 'Column', 'SCVP'], 'result': [{'workload': 'customer1632797638709.csv', 'partitions': [[['c_custkey'], ['c_comment'], ['c_name'], ['c_nationkey'], ['c_acctbal'], ['c_phone'], ['c_mktsegment', 'c_address']], [['c_comment', 'c_address'], ['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_nationkey', 'c_custkey'], ['c_name']], [['c_custkey', 'c_name', 'c_address', 'c_nationkey', 'c_phone', 'c_acctbal', 'c_mktsegment', 'c_comment']], [['c_custkey'], ['c_name'], ['c_address'], ['c_nationkey'], ['c_phone'], ['c_acctbal'], ['c_mktsegment'], ['c_comment']], [['c_custkey', 'c_nationkey'], ['c_address', 'c_comment'], ['c_name'], ['c_phone', 'c_acctbal'], ['c_mktsegment']]], 'costs': [9933.0, 8090.0, 36160.0, 8933.0, 8090.0]}, {'workload': 'supplier1632797649822.csv', 'partitions': [[['s_suppkey'], ['s_phone'], ['s_name'], ['s_nationkey'], ['s_address'], ['s_comment', 's_acctbal']], [['s_comment'], ['s_acctbal', 's_phone', 's_address', 's_name'], ['s_nationkey', 's_suppkey']], [['s_suppkey', 's_name', 's_address', 's_nationkey', 's_phone', 's_acctbal', 's_comment']], [['s_suppkey'], ['s_name'], ['s_address'], ['s_nationkey'], ['s_phone'], ['s_acctbal'], ['s_comment']], [['s_comment'], ['s_address'], ['s_suppkey', 's_nationkey'], ['s_name'], ['s_phone', 's_acctbal']]], 'costs': [15041.0, 14601.0, 40120.0, 15121.0, 13841.0]}, {'workload': 'orders1632797654954.csv', 'partitions': [[['o_orderkey'], ['o_comment'], ['o_shippriority'], ['o_totalprice'], ['o_custkey'], ['o_orderdate'], ['o_orderpriority'], ['o_clerk', 'o_orderstatus']], [['o_comment'], ['o_shippriority'], ['o_orderpriority'], ['o_orderdate'], ['o_totalprice'], ['o_orderstatus'], ['o_custkey'], ['o_orderkey'], ['o_clerk']], [['o_orderkey', 'o_custkey', 'o_orderstatus', 'o_totalprice', 'o_orderdate', 'o_orderpriority', 'o_clerk', 'o_shippriority', 'o_comment']], [['o_orderkey'], ['o_custkey'], ['o_orderstatus'], ['o_totalprice'], ['o_orderdate'], ['o_orderpriority'], ['o_clerk'], ['o_shippriority'], ['o_comment']], [['o_orderkey', 'o_custkey'], ['o_comment'], ['o_totalprice'], ['o_shippriority'], ['o_orderstatus'], ['o_orderpriority'], ['o_orderdate'], ['o_clerk']]], 'costs': [7819.0, 7519.0, 33920.0, 7519.0, 7078.0]}]}
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/storage.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+ * Detected change in '/home/liuhuan/huawei/webProjects/partition-api/flaskr/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-090-916
+10.47.199.189 - - [12/Oct/2021 14:08:31] "[37mGET /static/dist/ruc_bg_424.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:32] "[37mPOST /aidb/user/login HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:32] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:32] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/back/rh02-panel1.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/back/rh02-panel4.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/back/rh02-panel3.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/back/rh02-panel2.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/main-cover.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:33] "[37mGET /static/dist/logo.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:08:45] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:09:02] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:09:24] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:10:09] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:10:14] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:24:04] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:24:18] "[37mGET /aidb/index/recommand?maxIndexCount=6&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:17] "[37mGET /static/compress/workload.png HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:17] "[37mGET /static/compress/storage.png HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:17] "[37mGET /static/compress/data1.png HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:27] "[37mGET /aidb/storage/tabList HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:43] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:28:46] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:29:51] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:29:51] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+token= admin-token
+token= admin-token
+token= admin-token
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.47.199.189 - - [12/Oct/2021 14:30:01] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:30:14] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:30:23] "[37mGET /aidb/index/recommand?maxIndexCount=2&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:33:47] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=0 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:33:55] "[37mGET /aidb/index/recommand?maxIndexCount=0&queryDistribution=0 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:35:53] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:35:55] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:37:11] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:37:17] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:37:47] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:37:49] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 39, in getTableData
+    row_data[col]=row[idx]
+IndexError: tuple index out of range
+10.47.199.189 - - [12/Oct/2021 14:37:53] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+token= admin-token
+token= admin-token
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.47.199.189 - - [12/Oct/2021 14:37:53] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:37:57] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:13] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:14] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:21] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:26] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCD%22.lineitem HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 48, in getTableData
+    }, cls=NpEncoder
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 23, in default
+    super(NpEncoder,self).default(o)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'date' is not JSON serializable
+10.47.199.189 - - [12/Oct/2021 14:38:33] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 31, in getTableData
+    res,_=pg.executeQuery(query+" limit 10 offset 0;")
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py", line 13, in executeQuery
+    self.cur.execute(sql)
+psycopg2.errors.SyntaxError: 错误:  语法错误 在 "limit" 或附近的
+第1行SELECT * FROM  limit 10 offset 0;
+                    ^
+10.47.199.189 - - [12/Oct/2021 14:38:35] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:35] "[35m[1mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 31, in getTableData
+    res,_=pg.executeQuery(query+" limit 10 offset 0;")
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py", line 13, in executeQuery
+    self.cur.execute(sql)
+psycopg2.errors.SyntaxError: 错误:  语法错误 在 "limit" 或附近的
+第1行SELECT * FROM  limit 10 offset 0;
+                    ^
+10.47.199.189 - - [12/Oct/2021 14:38:39] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:42] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:38:43] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'l_orderkey': 1, 'l_partkey': 31038, 'l_suppkey': 1554, 'l_linenumber': 1, 'l_quantity': Decimal('17.00'), 'l_extendedprice': Decimal('16473.51'), 'l_discount': Decimal('0.04'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 3, 13), 'l_commitdate': datetime.date(1996, 2, 12), 'l_receiptdate': datetime.date(1996, 3, 22), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'TRUCK     ', 'l_comment': 'egular courts above the'}, {'l_orderkey': 1, 'l_partkey': 13462, 'l_suppkey': 1463, 'l_linenumber': 2, 'l_quantity': Decimal('36.00'), 'l_extendedprice': Decimal('49516.56'), 'l_discount': Decimal('0.09'), 'l_tax': Decimal('0.06'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 4, 12), 'l_commitdate': datetime.date(1996, 2, 28), 'l_receiptdate': datetime.date(1996, 4, 20), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'MAIL      ', 'l_comment': 'ly final dependencies: slyly bold '}, {'l_orderkey': 1, 'l_partkey': 12740, 'l_suppkey': 741, 'l_linenumber': 3, 'l_quantity': Decimal('8.00'), 'l_extendedprice': Decimal('13221.92'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 1, 29), 'l_commitdate': datetime.date(1996, 3, 5), 'l_receiptdate': datetime.date(1996, 1, 31), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'REG AIR   ', 'l_comment': 'riously. regular, express dep'}, {'l_orderkey': 1, 'l_partkey': 427, 'l_suppkey': 928, 'l_linenumber': 4, 'l_quantity': Decimal('28.00'), 'l_extendedprice': Decimal('37167.76'), 'l_discount': Decimal('0.09'), 'l_tax': Decimal('0.06'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 4, 21), 'l_commitdate': datetime.date(1996, 3, 30), 'l_receiptdate': datetime.date(1996, 5, 16), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'AIR       ', 'l_comment': 'lites. fluffily even de'}, {'l_orderkey': 1, 'l_partkey': 4806, 'l_suppkey': 313, 'l_linenumber': 5, 'l_quantity': Decimal('24.00'), 'l_extendedprice': Decimal('41059.20'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.04'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 3, 30), 'l_commitdate': datetime.date(1996, 3, 14), 'l_receiptdate': datetime.date(1996, 4, 1), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'FOB       ', 'l_comment': ' pending foxes. slyly re'}, {'l_orderkey': 1, 'l_partkey': 3127, 'l_suppkey': 130, 'l_linenumber': 6, 'l_quantity': Decimal('32.00'), 'l_extendedprice': Decimal('32963.84'), 'l_discount': Decimal('0.07'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 1, 30), 'l_commitdate': datetime.date(1996, 2, 7), 'l_receiptdate': datetime.date(1996, 2, 3), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'MAIL      ', 'l_comment': 'arefully slyly ex'}, {'l_orderkey': 2, 'l_partkey': 21234, 'l_suppkey': 255, 'l_linenumber': 1, 'l_quantity': Decimal('38.00'), 'l_extendedprice': Decimal('43898.74'), 'l_discount': Decimal('0.00'), 'l_tax': Decimal('0.05'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1997, 1, 28), 'l_commitdate': datetime.date(1997, 1, 14), 'l_receiptdate': datetime.date(1997, 2, 2), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'RAIL      ', 'l_comment': 'ven requests. deposits breach a'}, {'l_orderkey': 3, 'l_partkey': 860, 'l_suppkey': 361, 'l_linenumber': 1, 'l_quantity': Decimal('45.00'), 'l_extendedprice': Decimal('79238.70'), 'l_discount': Decimal('0.06'), 'l_tax': Decimal('0.00'), 'l_returnflag': 'R', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1994, 2, 2), 'l_commitdate': datetime.date(1994, 1, 4), 'l_receiptdate': datetime.date(1994, 2, 23), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'AIR       ', 'l_comment': 'ongside of the furiously brave acco'}, {'l_orderkey': 3, 'l_partkey': 3808, 'l_suppkey': 1312, 'l_linenumber': 2, 'l_quantity': Decimal('49.00'), 'l_extendedprice': Decimal('83878.20'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.00'), 'l_returnflag': 'R', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1993, 11, 9), 'l_commitdate': datetime.date(1993, 12, 20), 'l_receiptdate': datetime.date(1993, 11, 24), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'RAIL      ', 'l_comment': ' unusual accounts. eve'}, {'l_orderkey': 3, 'l_partkey': 25690, 'l_suppkey': 715, 'l_linenumber': 3, 'l_quantity': Decimal('27.00'), 'l_extendedprice': Decimal('43623.63'), 'l_discount': Decimal('0.06'), 'l_tax': Decimal('0.07'), 'l_returnflag': 'A', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1994, 1, 16), 'l_commitdate': datetime.date(1993, 11, 22), 'l_receiptdate': datetime.date(1994, 1, 23), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'SHIP      ', 'l_comment': 'nal foxes wake. '}]
+token= admin-token
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.47.199.189 - - [12/Oct/2021 14:38:44] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:39:18] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:39:20] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:39:29] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:39:49] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.47.199.189 - - [12/Oct/2021 14:39:53] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:44:46] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:48:36] "[37mGET /aidb/index/recommand?maxIndexCount=64&queryDistribution=200,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:49:34] "[37mGET /aidb/storage/tabList HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:49:38] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:51] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:51] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:51] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:51] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:51] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:52] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 25575.02it/s]
+10.77.110.152 - - [12/Oct/2021 14:49:52] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 52869.38it/s]
+token= admin-token
+{'workloads': ['customer1621836580261.csv', 'supplier1621958597615.csv', 'region1621958280154.csv', 'nation1621958273183.csv', 'partsupp1621960620750.csv'], 'methods': [0, 1, 10, 3, 5, 6, 9], 'costModels': ['Huang']}
+[[0], [3], [1], [4], [5], [6], [2], [7]]
+
+10.77.110.152 - - [12/Oct/2021 14:49:53] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:53] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 72523.99it/s]
+10.77.110.152 - - [12/Oct/2021 14:49:53] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 66400.59it/s][[0, 3], [1, 2], [4, 5], [6]]
+
+10.77.110.152 - - [12/Oct/2021 14:49:53] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16513.01it/s]
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 20971.52it/s][[0, 1], [2]]
+
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 33026.02it/s]
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 33825.03it/s][[0, 1, 2], [3]]
+
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 35848.75it/s]
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 55738.26it/s][[0, 1, 3], [2], [4]]
+
+10.77.110.152 - - [12/Oct/2021 14:49:54] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:49:54] "[37mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:53:25] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 14:53:26] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:58:06] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:58:07] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 14:58:07] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:00:16] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:00:22] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:12:54] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:13:21] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:17:49] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 15:18:53] "[33mGET /aidb HTTP/1.1[0m" 404 -
+10.47.199.189 - - [12/Oct/2021 15:18:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.77.110.152 - - [12/Oct/2021 15:19:09] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:24:59] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:25:31] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:25:31] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:25:31] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:30:24] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:30:52] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 15:31:36] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 15:32:06] "[37mGET /static/compress/buffer.png HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 15:32:48] "[37mGET /static/compress/buffer.png HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:33:01] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:33:09] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:23] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:24] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=1 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:26] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=13 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:28] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/customer1621836580261.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/supplier1621958597615.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/region1621958280154.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/nation1621958273183.csv HTTP/1.1[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mGET /static/tempWorkload/partsupp1621960620750.csv HTTP/1.1[0m" 200 -
+{'methods': ['OPTIMAL', 'AUTOPART', 'O2P', 'HILLCLIMB', 'Row', 'HYF', 'SCVP'], 'result': [{'workload': 'customer1621836580261.csv', 'partitions': [[['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_name'], ['c_nationkey', 'c_custkey']], [['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_mktsegment'], ['c_nationkey', 'c_custkey'], ['c_name']], [['c_custkey'], ['c_comment'], ['c_acctbal'], ['c_phone'], ['c_name'], ['c_nationkey'], ['c_mktsegment', 'c_address']], [['c_mktsegment'], ['c_acctbal', 'c_phone'], ['c_comment', 'c_address'], ['c_name'], ['c_nationkey', 'c_custkey']], [['c_custkey', 'c_name', 'c_address', 'c_nationkey', 'c_phone', 'c_acctbal', 'c_mktsegment', 'c_comment']], [['c_custkey'], ['c_nationkey'], ['c_name'], ['c_phone'], ['c_acctbal'], ['c_mktsegment'], ['c_address'], ['c_comment']], [['c_custkey', 'c_nationkey'], ['c_address', 'c_comment'], ['c_name'], ['c_phone', 'c_acctbal'], ['c_mktsegment']]], 'costs': [8742.0, 8742.0, 10425.0, 8742.0, 45080.0, 9425.0, 8742.0]}, {'workload': 'supplier1621958597615.csv', 'partitions': [[['s_comment', 's_acctbal'], ['s_phone', 's_address'], ['s_name'], ['s_nationkey', 's_suppkey']], [['s_acctbal', 's_phone'], ['s_comment'], ['s_nationkey', 's_suppkey'], ['s_address'], ['s_name']], [['s_suppkey'], ['s_phone'], ['s_name'], ['s_nationkey'], ['s_address'], ['s_comment', 's_acctbal']], [['s_comment'], ['s_acctbal', 's_phone'], ['s_address'], ['s_name'], ['s_nationkey', 's_suppkey']], [['s_suppkey', 's_name', 's_address', 's_nationkey', 's_phone', 's_acctbal', 's_comment']], [['s_suppkey', 's_nationkey'], ['s_name', 's_address'], ['s_phone', 's_acctbal'], ['s_comment']], [['s_comment'], ['s_address'], ['s_suppkey', 's_nationkey'], ['s_name'], ['s_phone', 's_acctbal']]], 'costs': [13821.0, 13841.0, 15041.0, 13841.0, 40120.0, 14161.0, 13841.0]}, {'workload': 'region1621958280154.csv', 'partitions': [[['r_name', 'r_regionkey'], ['r_comment']], [['r_comment'], ['r_name', 'r_regionkey']], [['r_name', 'r_regionkey'], ['r_comment']], [['r_comment'], ['r_name', 'r_regionkey']], [['r_regionkey', 'r_name', 'r_comment']], [['r_regionkey', 'r_name'], ['r_comment']], [['r_regionkey', 'r_name'], ['r_comment']]], 'costs': [1980, 1980, 1980, 1980, 11100, 1980, 1980]}, {'workload': 'nation1621958273183.csv', 'partitions': [[['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey'], ['n_name', 'n_nationkey']], [['n_nationkey', 'n_name', 'n_regionkey', 'n_comment']], [['n_nationkey', 'n_name', 'n_regionkey'], ['n_comment']], [['n_nationkey', 'n_name', 'n_regionkey'], ['n_comment']]], 'costs': [7060.0, 7060.0, 7060.0, 7060.0, 34420.0, 7060.0, 7060.0]}, {'workload': 'partsupp1621960620750.csv', 'partitions': [[['ps_availqty'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey'], ['ps_comment']], [['ps_comment'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey'], ['ps_availqty']], [['ps_availqty', 'ps_suppkey', 'ps_partkey'], ['ps_comment', 'ps_supplycost']], [['ps_comment'], ['ps_availqty'], ['ps_supplycost', 'ps_suppkey', 'ps_partkey']], [['ps_partkey', 'ps_suppkey', 'ps_availqty', 'ps_supplycost', 'ps_comment']], [['ps_partkey', 'ps_suppkey', 'ps_supplycost'], ['ps_availqty'], ['ps_comment']], [['ps_partkey', 'ps_suppkey', 'ps_supplycost'], ['ps_availqty'], ['ps_comment']]], 'costs': [2162.0, 2162.0, 14500.0, 2162.0, 22140.0, 2162.0, 2162.0]}]}
+token= admin-token
+token= admin-token
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+{'workloads': ['customer1621836580261.csv', 'supplier1621958597615.csv', 'region1621958280154.csv', 'nation1621958273183.csv', 'partsupp1621960620750.csv'], 'methods': [1, 2, 3], 'costModels': ['Son']}
+{'methods': ['O2P', 'HILLCLIMB', 'NAVATHE'], 'result': [{'workload': 'customer1621836580261.csv', 'partitions': [[['c_comment', 'c_acctbal', 'c_phone', 'c_name', 'c_custkey'], ['c_nationkey'], ['c_mktsegment', 'c_address']], [['c_comment'], ['c_mktsegment'], ['c_address'], ['c_acctbal', 'c_phone', 'c_nationkey', 'c_name', 'c_custkey']], [['c_comment', 'c_acctbal', 'c_phone', 'c_name', 'c_custkey'], ['c_nationkey'], ['c_mktsegment', 'c_address']]], 'costs': [34856.0, 14604.0, 34856.0]}, {'workload': 'supplier1621958597615.csv', 'partitions': [[['s_phone', 's_nationkey', 's_name', 's_suppkey'], ['s_address'], ['s_comment', 's_acctbal']], [['s_comment'], ['s_acctbal'], ['s_phone'], ['s_nationkey', 's_address', 's_name', 's_suppkey']], [['s_phone', 's_nationkey', 's_name', 's_suppkey'], ['s_address'], ['s_comment', 's_acctbal']]], 'costs': [17481.0, 20101.0, 17481.0]}, {'workload': 'region1621958280154.csv', 'partitions': [[['r_name', 'r_regionkey'], ['r_comment']], [['r_comment'], ['r_name', 'r_regionkey']], [['r_name', 'r_regionkey'], ['r_comment']]], 'costs': [1980, 1980, 1980]}, {'workload': 'nation1621958273183.csv', 'partitions': [[['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']], [['n_comment'], ['n_regionkey', 'n_name', 'n_nationkey']], [['n_regionkey', 'n_name', 'n_nationkey'], ['n_comment']]], 'costs': [7060.0, 7060.0, 7060.0]}, {'workload': 'partsupp1621960620750.csv', 'partitions': [[['ps_availqty', 'ps_suppkey', 'ps_partkey'], ['ps_comment', 'ps_supplycost']], [['ps_comment'], ['ps_supplycost', 'ps_availqty', 'ps_suppkey', 'ps_partkey']], [['ps_availqty', 'ps_suppkey', 'ps_partkey'], ['ps_comment', 'ps_supplycost']]], 'costs': [14500.0, 2240.0, 14500.0]}]}10.77.110.152 - - [12/Oct/2021 15:34:54] "[37mPOST /aidb/storage/vertical/partitions/analysis HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:35:06] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:35:44] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:35:49] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:42:01] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:42:17] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCD%22.lineitem HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 48, in getTableData
+    }, cls=NpEncoder
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 23, in default
+    super(NpEncoder,self).default(o)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'date' is not JSON serializable
+10.77.110.152 - - [12/Oct/2021 15:48:08] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCH%22.lineitem HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 31, in getTableData
+    res,_=pg.executeQuery(query+" limit 10 offset 0;")
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py", line 13, in executeQuery
+    self.cur.execute(sql)
+psycopg2.errors.UndefinedTable: 错误:  关系 "TPCH.lineitem" 不存在
+第1行SELECT * FROM "TPCH".lineitem limit 10 offset 0;
+                   ^
+10.77.110.152 - - [12/Oct/2021 15:48:10] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCH%22.lineitem HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 31, in getTableData
+    res,_=pg.executeQuery(query+" limit 10 offset 0;")
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/db.py", line 13, in executeQuery
+    self.cur.execute(sql)
+psycopg2.errors.UndefinedTable: 错误:  关系 "TPCH.lineitem" 不存在
+第1行SELECT * FROM "TPCH".lineitem limit 10 offset 0;
+                   ^
+10.77.110.152 - - [12/Oct/2021 15:48:15] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:49:59] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'l_orderkey': 1, 'l_partkey': 31038, 'l_suppkey': 1554, 'l_linenumber': 1, 'l_quantity': Decimal('17.00'), 'l_extendedprice': Decimal('16473.51'), 'l_discount': Decimal('0.04'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 3, 13), 'l_commitdate': datetime.date(1996, 2, 12), 'l_receiptdate': datetime.date(1996, 3, 22), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'TRUCK     ', 'l_comment': 'egular courts above the'}, {'l_orderkey': 1, 'l_partkey': 13462, 'l_suppkey': 1463, 'l_linenumber': 2, 'l_quantity': Decimal('36.00'), 'l_extendedprice': Decimal('49516.56'), 'l_discount': Decimal('0.09'), 'l_tax': Decimal('0.06'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 4, 12), 'l_commitdate': datetime.date(1996, 2, 28), 'l_receiptdate': datetime.date(1996, 4, 20), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'MAIL      ', 'l_comment': 'ly final dependencies: slyly bold '}, {'l_orderkey': 1, 'l_partkey': 12740, 'l_suppkey': 741, 'l_linenumber': 3, 'l_quantity': Decimal('8.00'), 'l_extendedprice': Decimal('13221.92'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 1, 29), 'l_commitdate': datetime.date(1996, 3, 5), 'l_receiptdate': datetime.date(1996, 1, 31), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'REG AIR   ', 'l_comment': 'riously. regular, express dep'}, {'l_orderkey': 1, 'l_partkey': 427, 'l_suppkey': 928, 'l_linenumber': 4, 'l_quantity': Decimal('28.00'), 'l_extendedprice': Decimal('37167.76'), 'l_discount': Decimal('0.09'), 'l_tax': Decimal('0.06'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 4, 21), 'l_commitdate': datetime.date(1996, 3, 30), 'l_receiptdate': datetime.date(1996, 5, 16), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'AIR       ', 'l_comment': 'lites. fluffily even de'}, {'l_orderkey': 1, 'l_partkey': 4806, 'l_suppkey': 313, 'l_linenumber': 5, 'l_quantity': Decimal('24.00'), 'l_extendedprice': Decimal('41059.20'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.04'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 3, 30), 'l_commitdate': datetime.date(1996, 3, 14), 'l_receiptdate': datetime.date(1996, 4, 1), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'FOB       ', 'l_comment': ' pending foxes. slyly re'}, {'l_orderkey': 1, 'l_partkey': 3127, 'l_suppkey': 130, 'l_linenumber': 6, 'l_quantity': Decimal('32.00'), 'l_extendedprice': Decimal('32963.84'), 'l_discount': Decimal('0.07'), 'l_tax': Decimal('0.02'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1996, 1, 30), 'l_commitdate': datetime.date(1996, 2, 7), 'l_receiptdate': datetime.date(1996, 2, 3), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'MAIL      ', 'l_comment': 'arefully slyly ex'}, {'l_orderkey': 2, 'l_partkey': 21234, 'l_suppkey': 255, 'l_linenumber': 1, 'l_quantity': Decimal('38.00'), 'l_extendedprice': Decimal('43898.74'), 'l_discount': Decimal('0.00'), 'l_tax': Decimal('0.05'), 'l_returnflag': 'N', 'l_linestatus': 'O', 'l_shipdate': datetime.date(1997, 1, 28), 'l_commitdate': datetime.date(1997, 1, 14), 'l_receiptdate': datetime.date(1997, 2, 2), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'RAIL      ', 'l_comment': 'ven requests. deposits breach a'}, {'l_orderkey': 3, 'l_partkey': 860, 'l_suppkey': 361, 'l_linenumber': 1, 'l_quantity': Decimal('45.00'), 'l_extendedprice': Decimal('79238.70'), 'l_discount': Decimal('0.06'), 'l_tax': Decimal('0.00'), 'l_returnflag': 'R', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1994, 2, 2), 'l_commitdate': datetime.date(1994, 1, 4), 'l_receiptdate': datetime.date(1994, 2, 23), 'l_shipinstruct': 'NONE                     ', 'l_shipmode': 'AIR       ', 'l_comment': 'ongside of the furiously brave acco'}, {'l_orderkey': 3, 'l_partkey': 3808, 'l_suppkey': 1312, 'l_linenumber': 2, 'l_quantity': Decimal('49.00'), 'l_extendedprice': Decimal('83878.20'), 'l_discount': Decimal('0.10'), 'l_tax': Decimal('0.00'), 'l_returnflag': 'R', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1993, 11, 9), 'l_commitdate': datetime.date(1993, 12, 20), 'l_receiptdate': datetime.date(1993, 11, 24), 'l_shipinstruct': 'TAKE BACK RETURN         ', 'l_shipmode': 'RAIL      ', 'l_comment': ' unusual accounts. eve'}, {'l_orderkey': 3, 'l_partkey': 25690, 'l_suppkey': 715, 'l_linenumber': 3, 'l_quantity': Decimal('27.00'), 'l_extendedprice': Decimal('43623.63'), 'l_discount': Decimal('0.06'), 'l_tax': Decimal('0.07'), 'l_returnflag': 'A', 'l_linestatus': 'F', 'l_shipdate': datetime.date(1994, 1, 16), 'l_commitdate': datetime.date(1993, 11, 22), 'l_receiptdate': datetime.date(1994, 1, 23), 'l_shipinstruct': 'DELIVER IN PERSON        ', 'l_shipmode': 'SHIP      ', 'l_comment': 'nal foxes wake. '}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.77.110.152 - - [12/Oct/2021 15:50:58] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:51:28] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:51:40] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:52:39] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:52:42] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.77.110.152 - - [12/Oct/2021 15:52:51] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:52:53] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:53:00] "[37mGET /aidb/storage/tableInfo/columns/lineitem HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:53:01] "[35m[1mGET /aidb/index/tabledata?tablename=lineitem&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/liuhuan/anaconda3/envs/aidb/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/liuhuan/huawei/webProjects/partition-api/flaskr/index.py", line 39, in getTableData
+    row_data[col]=row[idx]
+IndexError: tuple index out of range
+10.77.110.152 - - [12/Oct/2021 15:53:11] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:53:12] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:53:14] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:56:11] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 15:56:13] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]
+token= admin-token
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]10.77.110.152 - - [12/Oct/2021 15:56:23] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [12/Oct/2021 16:05:05] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:00] "[37mGET /static/dist/ruc_bg_424.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:01] "[37mPOST /aidb/user/login HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:01] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:01] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:21] "[37mGET /aidb/storage/tabList HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:24] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=1 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:26] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=6 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:27] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=11 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:28] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=13 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:07:34] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 17:18:30] "[33mGET /aidb HTTP/1.1[0m" 404 -
+10.47.199.189 - - [12/Oct/2021 17:18:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.47.199.189 - - [12/Oct/2021 17:52:32] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=200,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.1[0m" 200 -
+10.47.199.189 - - [12/Oct/2021 20:19:10] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [13/Oct/2021 08:38:19] "[37mGET /static/dist/ruc_bg_424.jpg HTTP/1.1[0m" 200 -
+10.47.199.189 - - [13/Oct/2021 08:38:20] "[37mPOST /aidb/user/login HTTP/1.1[0m" 200 -
+10.47.199.189 - - [13/Oct/2021 08:38:20] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[37mGET /aidb/user/info?token=admin-token HTTP/1.1[0m" 200 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/back/rh02-panel2.jpg HTTP/1.1[0m" 304 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/back/rh02-panel1.jpg HTTP/1.1[0m" 304 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/main-cover.jpg HTTP/1.1[0m" 304 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/back/rh02-panel4.jpg HTTP/1.1[0m" 304 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/back/rh02-panel3.jpg HTTP/1.1[0m" 304 -
+10.47.199.189 - - [13/Oct/2021 08:38:21] "[36mGET /static/dist/logo.jpg HTTP/1.1[0m" 304 -
+10.77.110.152 - - [13/Oct/2021 14:11:18] "[37mPOST /aidb/user/login HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:11:18] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:48:37] "[37mGET /aidb/user/info?token=admin-token HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:50:37] "[37mGET /aidb/index/tabledata?tablename=&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:50:40] "[37mGET /aidb/storage/tableInfo/columns/customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:50:48] "[37mGET /aidb/index/tabledata?tablename=customer&query=SELECT+*+FROM+%22TPCD%22.customer HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 14:50:54] "[37mGET /aidb/index/recommand?maxIndexCount=8&queryDistribution=247,+32,+868,+107,+632,+149,+48,+265,+509,+774,+674,+925,+152,+552 HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 15:18:23] "[37mGET /aidb/storage/tabList HTTP/1.0[0m" 200 -
+10.77.110.152 - - [13/Oct/2021 15:20:18] "[37mGET /aidb/storage/tableInfo/customer?tabName=customer&rowNum=100&pageSize=8&pageCount=13&currentPage=1 HTTP/1.0[0m" 200 -
+
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+token= admin-token
+[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+[{'c_custkey': 1, 'c_name': 'Customer#000000001', 'c_address': 'IVhzIApeRb ot,c,E', 'c_nationkey': 15, 'c_phone': '25-989-741-2988', 'c_acctbal': Decimal('711.56'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'to the even, regular platelets. regular, ironic epitaphs nag e'}, {'c_custkey': 2, 'c_name': 'Customer#000000002', 'c_address': 'XSTf4,NCwDVaWNe6tEgvwfmRchLXak', 'c_nationkey': 13, 'c_phone': '23-768-687-3665', 'c_acctbal': Decimal('121.65'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'l accounts. blithely ironic theodolites integrate boldly: caref'}, {'c_custkey': 3, 'c_name': 'Customer#000000003', 'c_address': 'MG9kdTD2WBHm', 'c_nationkey': 1, 'c_phone': '11-719-748-3364', 'c_acctbal': Decimal('7498.12'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': ' deposits eat slyly ironic, even instructions. express foxes detect slyly. blithely even accounts abov'}, {'c_custkey': 4, 'c_name': 'Customer#000000004', 'c_address': 'XxVSJsLAGtn', 'c_nationkey': 4, 'c_phone': '14-128-190-5944', 'c_acctbal': Decimal('2866.83'), 'c_mktsegment': 'MACHINERY ', 'c_comment': ' requests. final, regular ideas sleep final accou'}, {'c_custkey': 5, 'c_name': 'Customer#000000005', 'c_address': 'KvpyuHCplrB84WgAiGV6sYpZq7Tj', 'c_nationkey': 3, 'c_phone': '13-750-942-6364', 'c_acctbal': Decimal('794.47'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'n accounts will have to unwind. foxes cajole accor'}, {'c_custkey': 6, 'c_name': 'Customer#000000006', 'c_address': 'sKZz0CsnMD7mp4Xd0YrBvx,LREYKUWAh yVn', 'c_nationkey': 20, 'c_phone': '30-114-968-4951', 'c_acctbal': Decimal('7638.57'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'tions. even deposits boost according to the slyly bold packages. final accounts cajole requests. furious'}, {'c_custkey': 7, 'c_name': 'Customer#000000007', 'c_address': 'TcGe5gaZNgVePxU5kRrvXBfkasDTea', 'c_nationkey': 18, 'c_phone': '28-190-982-9759', 'c_acctbal': Decimal('9561.95'), 'c_mktsegment': 'AUTOMOBILE', 'c_comment': 'ainst the ironic, express theodolites. express, even pinto beans among the exp'}, {'c_custkey': 8, 'c_name': 'Customer#000000008', 'c_address': 'I0B10bB0AymmC, 0PrRYBCP1yGJ8xcBPmWhl5', 'c_nationkey': 17, 'c_phone': '27-147-574-9335', 'c_acctbal': Decimal('6819.74'), 'c_mktsegment': 'BUILDING  ', 'c_comment': 'among the slyly regular theodolites kindle blithely courts. carefully even theodolites haggle slyly along the ide'}, {'c_custkey': 9, 'c_name': 'Customer#000000009', 'c_address': 'xKiAFTjUsCuxfeleNqefumTrjS', 'c_nationkey': 8, 'c_phone': '18-338-906-3675', 'c_acctbal': Decimal('8324.07'), 'c_mktsegment': 'FURNITURE ', 'c_comment': 'r theodolites according to the requests wake thinly excuses: pending requests haggle furiousl'}, {'c_custkey': 10, 'c_name': 'Customer#000000010', 'c_address': '6LrEaV6KR6PLVcgl2ArL Q3rqzLzcT1 v2', 'c_nationkey': 5, 'c_phone': '15-741-346-9870', 'c_acctbal': Decimal('2753.54'), 'c_mktsegment': 'HOUSEHOLD ', 'c_comment': 'es regular deposits haggle. fur'}]

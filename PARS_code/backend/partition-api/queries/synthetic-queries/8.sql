@@ -1,0 +1,1 @@
+SELECT b_6,b_9,b_15 FROM widetable50 WHERE b_45<6011 or b_1<=7937 GROUP BY b_6,b_9,b_15;

@@ -1,0 +1,1 @@
+SELECT c_93 FROM widetable100 WHERE c_75>=9533 and c_42<5894;

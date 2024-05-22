@@ -1,0 +1,1 @@
+SELECT b_25,b_33 FROM widetable50 WHERE b_33<6632 and b_43>=429;
