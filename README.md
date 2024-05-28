@@ -9,7 +9,8 @@ defined optimization objectives. PARS also employs a variety of chart types to v
 
 :mega: We have released our paper and demo video to help readers better understand the PARS system.
 
-* Demo Video: [https://youtu.be/uuQZo08CDwg](https://youtu.be/uuQZo08CDwg)
+* Demo Video: [https://youtu.be/n8c_WSlH8F0](https://youtu.be/n8c_WSlH8F0)
+* Demo Video (including slides): [https://youtu.be/uuQZo08CDwg](https://youtu.be/uuQZo08CDwg)
 * Demo System: [http://10.77.110.171](http://3.141.127.228)
 * Do you want to learn more about data partitioning? Please check out our [database partitioning survey](https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-024-3538-1) and [AIDB paper resources](https://github.com/LumingSun/ML4DB-paper-list)!
 
